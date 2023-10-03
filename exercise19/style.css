@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    font-family: 'VT323', monospace;
+    max-width: 1000px;
+    margin: 10vh auto;
+}
+
+.box {
+
+    & img {
+        width: 100px;
+        height: auto;
+        border-radius: 50%;
+        position: relative;
+        top: -24px;
+    }
+
+    & .nes-container {
+        & p {
+            font-size: 1.2em;
+        }
+    }
+
+    & button {
+        padding: 1vh 3vw;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}

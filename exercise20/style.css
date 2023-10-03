@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+
+.pianoTile {
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    height: 45vh;
+    width: 8vw;
+}

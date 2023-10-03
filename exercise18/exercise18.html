@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="exercise18.css" class="css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="numpad">
+            <input style="grid-column: span 4;" id="calcDisplay" type="text" readonly>
+            <button onclick="updateCurrent('7')">7</button>
+            <button onclick="updateCurrent('8')">8</button>
+            <button onclick="updateCurrent('9')">9</button>
+            <button onclick="setOperation('+')"><i class="fa-solid fa-plus"></i></button>
+            
+
+            <button onclick="updateCurrent('4')">4</button>
+            <button onclick="updateCurrent('5')">5</button>
+            <button onclick="updateCurrent('6')">6</button>
+            <button onclick="setOperation('-')"><i class="fa-solid fa-minus"></i></button>
+
+            <button onclick="updateCurrent('1')">1</button>
+            <button onclick="updateCurrent('2')">2</button>
+            <button onclick="updateCurrent('3')">3</button>
+            <button onclick="setOperation('*')"><i class="fa-solid fa-xmark"></i></button>
+            
+            <button onclick="clearCurrent()">CE</button>
+
+            <button onclick="updateCurrent('0')">0</button>
+            <button onclick="decimalPoint()">,</button>
+            <button onclick="setOperation('/')"><i class="fa-solid fa-divide"></i></button>
+            
+            <button style="grid-column: span 2;" class="border-radius-bottom-left" onclick="delLastDigit()">DEL</button>
+            <button style="grid-column: span 2;" class="border-radius-bottom-right" onclick="calculate()">=</button>
+           
+            
+            
+            
+        </div>
+    </div>
+    
+
+
+    
+    
+</body>
+<script src="calculator.js"></script>
+</html>

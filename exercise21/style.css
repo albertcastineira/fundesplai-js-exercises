@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 2vh;
+    border: none;
+    display: block;
+    margin: 4vh auto;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    scale: 1.1;
+}
+
+#scoreText {
+    display: none;
+}
+
+#restartQuizBtn {
+    display: none;
+}

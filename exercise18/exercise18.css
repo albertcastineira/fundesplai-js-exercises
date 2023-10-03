@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+.calculator {
+    padding: 15px;
+    margin: 10vh auto;
+    background: rgb(161,161,161);
+    background: linear-gradient(137deg, rgba(161,161,161,1) 0%, rgba(97,97,97,1) 100%);
+    border-radius: 10px;
+    border: 1px solid rgb(179, 179, 179);
+
+    & .numpad {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        & input {
+            background: rgb(167,167,167);
+            background: linear-gradient(137deg, rgba(167,167,167,1) 0%, rgba(140,140,140,1) 100%);
+            border: 1px solid rgb(179, 179, 179);
+            font-size: 1.3em;
+            padding: 25px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            outline: none;
+        }
+
+        & button {
+            width: 100%;
+            padding: 25px 5px;
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #434343;
+        }
+    }
+
+
+}
+
+button {
+    background: rgb(167,167,167);
+    background: linear-gradient(137deg, rgba(167,167,167,1) 0%, rgba(140,140,140,1) 100%);
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.active {
+    background: rgb(145,145,145);
+    background: linear-gradient(137deg, rgba(145,145,145,1) 0%, rgba(108,108,108,1) 100%);
+    color: white;
+}
+
+.border-radius-bottom-right {
+    border-bottom-right-radius: 10px;
+}
+
+.border-radius-bottom-left {
+    border-bottom-left-radius: 10px;
+}

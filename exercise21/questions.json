@@ -1,0 +1,71 @@
+{
+    "questions": [
+        {
+            "text":"Choose the correct answer: Whats the meaning of USB?",
+            "answers": [
+                {
+                    "option":"A",
+                    "answer":"Universal Section Bus"
+                },
+                {
+                    "option":"B",
+                    "answer":"Ultra Secure Backup"
+                },
+                {
+                    "option":"C",
+                    "answer":"User System Bridge"
+                },
+                {
+                    "option":"D",
+                    "answer":"United States Broadcasting"
+                }
+            ],
+            "solutions": ["A"]
+        },
+        {
+            "text":"When was TypeScript published?",
+            "answers": [
+                {
+                    "option":"A",
+                    "answer":"2005"
+                },
+                {
+                    "option":"B",
+                    "answer":"2010"
+                },
+                {
+                    "option":"C",
+                    "answer":"2012"
+                },
+                {
+                    "option":"D",
+                    "answer":"2015"
+                }
+            ],
+            "solutions": ["C"]
+        },
+        {
+            "text":"What's the newest programming language?",
+            "answers": [
+                {
+                    "option":"A",
+                    "answer":"Python"
+                },
+                {
+                    "option":"B",
+                    "answer":"Java"
+                },
+                {
+                    "option":"C",
+                    "answer":"Kotlin"
+                },
+                {
+                    "option":"D",
+                    "answer":"Rust"
+                }
+            ],
+            "solutions": ["D"]
+        }
+        
+    ]
+}

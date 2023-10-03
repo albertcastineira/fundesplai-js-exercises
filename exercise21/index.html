@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Quiz</h1>
+    <div id="quizArea">
+        <p id="question"></p>
+        <button id="optionA" onclick="selectThisAnswer('A')"></button>
+        <button id="optionB" onclick="selectThisAnswer('B')"></button>
+        <button id="optionC" onclick="selectThisAnswer('C')"></button>
+        <button id="optionD" onclick="selectThisAnswer('D')"></button>
+    </div>
+    <p id="score"></p>
+    <button id="restartQuizBtn" onclick="initQuiz()">Repeat!</button>
+</body>
+<script src="main.js"></script>
+</html>

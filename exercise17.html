@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagochi</title>
+    <link rel="stylesheet" href="exercise17.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+
+    <div class="grid">
+        <div class="box">
+            <p class="barTitle">
+                <i class="fa-solid fa-utensils"></i> <span id="hungrinessBarText">100%</span>
+            </p>
+            <div id="hungrinessBar" class="bar">
+            </div>
+        </div>
+        <div class="box">
+            <p class="barTitle">
+                <i class="fa-solid fa-face-smile"></i> <span id="happinessBarText">100%</span>
+            </p>
+            <div id="happinessBar" class="bar">
+            </div>
+        </div>
+        <div class="box right">
+            <p class="barTitle"><span id="strengthBarText">0%</span> <i class="fa-solid fa-hand-fist"></i></p>
+            <div id="strengthBar" class="bar float-right">
+            </div>
+        </div>
+        <div class="box right">
+            <p class="barTitle"><span id="sleepBarText">0%</span> <i class="fa-solid fa-bolt"></i></p>
+            <div id="sleepBar" class="bar float-right">
+            </div>
+        </div>
+    </div>
+
+    <div class="tamagochi">
+        <p>
+            <span id="tamagochiText" class="name">Fluffy</span>
+            <i id="tamagochiIcon" class="fa-solid fa-dog"></i>
+            <i id="currentActionIcon"></i>
+        </p>
+    </div>
+
+    <div class="actions">
+        <button id="carrotBtn">
+            <i class="fa-solid fa-carrot"></i>
+        </button>
+        <button id="appleBtn">
+            <i class="fa-solid fa-apple-whole"></i>
+        </button>
+        <button id="iceCreamBtn">
+            <i class="fa-solid fa-ice-cream"></i>
+        </button>
+
+        <button id="gamesBtn">
+            <i class="fa-solid fa-gamepad"></i>
+        </button>
+        <button id="sportBtn">
+            <i class="fa-solid fa-futbol"></i>
+        </button>
+        <button id="readBtn">
+            <i class="fa-solid fa-book-open"></i>
+        </button>
+
+        <button id="weightTrainingBtn">
+            <i class="fa-solid fa-dumbbell"></i>
+        </button>
+        <button id="runningBtn">
+            <i class="fa-solid fa-person-running"></i>
+        </button>
+
+        <button id="sleepBtn">
+            <i class="fa-solid fa-bed"></i>
+        </button>
+        <button id="sofaBtn">
+            <i class="fa-solid fa-couch"></i>
+        </button>
+    </div>
+
+    
+</body>
+<script src="exercise17.js"></script>
+</html>
